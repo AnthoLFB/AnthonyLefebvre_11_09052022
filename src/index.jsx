@@ -2,6 +2,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
+//Reset css & font
+import './styles/Reset.css';
+import './styles/Font.css';
+
 //Pages
 import Home from './pages/Home';
 import Accommodation from './pages/Accommodation';
@@ -10,6 +14,8 @@ import Error from './pages/Error';
 
 //Router
 import { BrowserRouter as Router, Routes as RoutesList, Route } from 'react-router-dom'
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
