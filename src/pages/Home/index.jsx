@@ -1,6 +1,14 @@
+//React
+import React from 'react';
+
+//Composants
+import Header from '../../components/Header';
+
 function Home() {
   return (
-    <h1>Page d'accueil</h1>
+    <React.Fragment>
+      <Header/>
+    </React.Fragment>
   );
 }
 
