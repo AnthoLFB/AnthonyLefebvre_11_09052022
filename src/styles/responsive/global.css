@@ -1,0 +1,9 @@
+/*ultrawide*/
+@media (min-width: 2560px) 
+{
+    body
+    {
+        width: 2480px;
+        margin: 0 auto;
+    }
+}
