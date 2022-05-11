@@ -15,7 +15,7 @@ function AccommodationsList()
                 <article className="accommodationsList__card" key={accommodation.id}>
                     <AccommodationListItem id={accommodation.id} title={accommodation.title} cover={accommodation.cover}/>
                 </article>
-            )}
+            )} 
         </section>
     )
 }
