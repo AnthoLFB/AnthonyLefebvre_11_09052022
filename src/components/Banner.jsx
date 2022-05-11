@@ -1,4 +1,6 @@
+//CSS
 import '../styles/Banner.css'
+import '../styles/responsive/Banner.css'
 
 function Banner({ image, itHaveText, text = null })
 {  
