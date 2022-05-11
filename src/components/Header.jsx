@@ -7,6 +7,7 @@ import logo from '../assets/images/logo.jpg';
 
 //CSS
 import '../styles/Header.css';
+import '../styles/responsive/Header.css';
 
 function Header()
 {
