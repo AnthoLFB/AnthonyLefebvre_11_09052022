@@ -2,7 +2,8 @@
 import {Link} from 'react-router-dom'
 
 //CSS
-import '../styles/AccommodationsList.css' 
+import '../styles/AccommodationsList.css'
+import '../styles/responsive/AccommodationsList.css'  
 
 function AccommodationsListItem({id, title, cover})
 {

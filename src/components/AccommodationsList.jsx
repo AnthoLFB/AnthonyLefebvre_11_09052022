@@ -6,6 +6,7 @@ import AccommodationListItem from './AccommodationsListItem';
 
 //CSS
 import '../styles/AccommodationsList.css' 
+import '../styles/responsive/AccommodationsList.css' 
 
 function AccommodationsList()
 {
