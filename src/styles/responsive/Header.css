@@ -1,0 +1,54 @@
+/*
+ small: 576px,
+  medium: 768px,
+  large: 992px,
+  xlarge: 1200px,
+  xxlarge: 1400px,
+  ultrawide: 2560px
+*/
+
+/* ---- Responsive ---- */
+@media (max-width: 1200px) 
+{
+    .header__navbar__list__item
+    {
+        margin-left: 2em;
+    }
+}
+
+@media (max-width: 992px) 
+{
+    .header__navbar
+    {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) 
+{
+    .header__image
+    {
+        width: 100px;
+        height: 30px;
+    }
+
+    .header__navbar__list__item
+    {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 576px) 
+{
+    header
+    {
+        width: calc(100% - 100px);
+        margin: 25px 50px;
+    }
+
+    .header__navbar
+    {
+        width: 100%;
+    }
+}
