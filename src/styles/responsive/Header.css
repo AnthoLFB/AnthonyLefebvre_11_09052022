@@ -34,7 +34,7 @@
 
     .header__navbar, .header__navbar__list
     {
-        width: 100%;
+        width: calc(100%-40px);
     }
 
     .header__navbar__list__item:not(:last-child)
