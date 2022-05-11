@@ -12,7 +12,7 @@ function AccommodationsListItem({id, title, cover})
             <div className="accommodationsList__card__link__container">
                 <h1 className="accommodationsList__card__link__container__title">{title}</h1>
             </div>
-        </Link>
+        </Link> 
     );
 }
 
