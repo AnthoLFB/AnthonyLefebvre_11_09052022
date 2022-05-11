@@ -1,0 +1,35 @@
+/*
+ small: 576px,
+  medium: 768px,
+  large: 992px,
+  xlarge: 1200px,
+  xxlarge: 1400px,
+  ultrawide: 2560px
+*/
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) 
+{
+    .accommodationsList
+    {
+        background-color: #FFFFFF;
+        width: calc(100% - 40px);
+        margin: 20px;
+    }
+}
+
+@media (max-width: 576px) 
+{
+    .accommodationsList
+    {
+        padding: 0;
+    }
+
+    .accommodationsList__card
+    {
+        position: relative;
+        width: 335px;
+        height: 255px;
+        margin: 20px 0;
+    }
+}
