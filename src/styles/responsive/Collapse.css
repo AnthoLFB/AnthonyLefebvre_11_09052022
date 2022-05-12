@@ -1,0 +1,42 @@
+/*
+ small: 576px,
+  medium: 768px,
+  large: 992px,
+  xlarge: 1200px,
+  xxlarge: 1400px,
+  ultrawide: 2560px
+*/
+
+/* ---- Responsive for large collapse ---- */
+@media (max-width: 1200px) 
+{
+    .collapse-large, .collapse__button, .collapse__container
+    {
+        width: calc(100% - 100px);
+        margin-left: 50px;
+        margin-right: 50px;
+    } 
+}
+
+@media (max-width: 768px) 
+{
+    .collapse-large, .collapse__button, .collapse__container
+    {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    } 
+}
+
+@media (max-width: 576px) 
+{
+    .collapse__button__title
+    {
+        font-size: 13px;
+    }
+    
+    .collapse__container__content
+    {
+        font-size: 12px;
+    } 
+}

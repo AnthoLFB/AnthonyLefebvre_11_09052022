@@ -1,4 +1,4 @@
-.collapse, .collapse__button, .collapse__container
+.collapse-large, .collapse__button, .collapse__container
 {
   width: calc(100% - 200px);
   margin: 0 100px;
