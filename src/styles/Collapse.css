@@ -1,0 +1,45 @@
+.collapse, .collapse__button, .collapse__container
+{
+  width: calc(100% - 200px);
+  margin: 0 100px;
+}
+
+.collapse
+{
+  margin-bottom: 50px;
+}
+
+.collapse__button
+{
+  background-color: #FF6060;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 28px;
+}
+
+.collapse__button__title
+{
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.collapse__container
+{
+  background-color: #F7F7F7;
+  border-radius: 5px;
+}
+
+.collapse__container__content
+{
+  padding: 1.5em 0 1em 0;
+  margin: 0 18px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #FF6060;
+}
