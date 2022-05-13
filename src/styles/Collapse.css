@@ -43,3 +43,15 @@
   font-weight: 400;
   color: #FF6060;
 }
+
+/* ---- Small ---- */
+.collapse-small
+{
+  width: 45%;
+}
+
+.collapse-small .collapse__button, .collapse-small .collapse__container
+{
+  margin: 0;
+  width: 100%;
+}
