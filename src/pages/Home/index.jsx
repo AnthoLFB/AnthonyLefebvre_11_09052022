@@ -4,10 +4,11 @@ import React from 'react';
 //Composants
 import Header from '../../components/Header';
 import Banner from '../../components/Banner';
+import AccommodationsList from '../../components/AccommodationsList';
 
 //Images
 import coastalLandscape from '../../assets/images/coastalLandscape.jpg';
-import AccommodationsList from '../../components/AccommodationsList';
+
 
 function Home() {
   return (
