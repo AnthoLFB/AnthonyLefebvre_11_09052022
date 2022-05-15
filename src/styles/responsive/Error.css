@@ -1,0 +1,50 @@
+/*
+ small: 576px,
+  medium: 768px,
+  large: 992px,
+  xlarge: 1200px,
+  xxlarge: 1400px,
+  ultrawide: 2560px
+*/
+
+/* ---- Responsive ---- */
+@media (max-width: 992px) 
+{
+    .error__code
+    {
+        font-size: 220px;
+    }
+
+    .error__message
+    {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 768px) 
+{
+    .error
+    {
+        width: calc(100% - 40px);
+        margin: 100px 20px;
+        
+    }
+}
+
+@media (max-width: 576px) 
+{
+    .error__code
+    {
+        font-size: 76px;
+    }
+
+    .error__message
+    {
+        font-size: 18px;
+    }
+}
+
+
+
+
+

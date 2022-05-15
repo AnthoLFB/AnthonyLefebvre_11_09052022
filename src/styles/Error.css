@@ -1,0 +1,27 @@
+.error
+{
+    width: calc(100% - 200px);
+    margin: 100px;
+    color: #FF6060;
+    text-align: center;
+}
+
+.error__code
+{
+    font-weight: 700;
+    font-size: 288px;
+    padding: 0;
+    margin: 0;
+}
+
+.error__message
+{
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 5em;
+}
+
+.error__link
+{
+    color: #FF6060;
+}
