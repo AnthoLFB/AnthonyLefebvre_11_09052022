@@ -11,7 +11,7 @@ import './styles/Font.css';
 import Home from './pages/Home';
 import Accommodation from './pages/Accommodation';
 import AboutUs from './pages/AboutUs';
-import Error from './pages/Error';
+import ErrorPage from './pages/Error';
 
 //Router
 import { BrowserRouter as Router, Routes as RoutesList, Route } from 'react-router-dom'
@@ -34,7 +34,7 @@ root.render(
         <Route path="/a-propos" element={<AboutUs/>}></Route>
 
         {/*Page d'erreur*/}
-        <Route path="*" element={<Error/>}></Route>
+        <Route path="*" element={<ErrorPage/>}></Route>
         
       </RoutesList>
     </Router>
