@@ -3,6 +3,7 @@ import Star from "./Star";
 
 //CSS
 import "../styles/AccommodationHost.css";
+import "../styles/responsive/AccommodationHost.css";
 
 function AccommodationHost({host, rating})
 {

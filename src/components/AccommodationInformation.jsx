@@ -14,6 +14,7 @@ import AccommodationHost from './AccommodationHost';
 
 //CSS
 import "../styles/AccommodationInformation.css";
+import "../styles/responsive/AccommodationInformation.css";
 
 function AccommodationInformation() 
 {

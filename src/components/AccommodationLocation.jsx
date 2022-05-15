@@ -3,6 +3,7 @@ import Tag from "./Tag";
 
 //CSS
 import "../styles/AccommodationLocation.css"
+import "../styles/responsive/AccommodationLocation.css"
 
 function AccommodationLocation({title, location, tags})
 {
