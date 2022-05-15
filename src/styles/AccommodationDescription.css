@@ -1,0 +1,14 @@
+.description
+{
+    width: calc(100% - 200px);
+    margin: 0px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.description__equipments-list
+{
+    list-style: none;
+}
