@@ -17,9 +17,9 @@ function Carrousel({gallery})
     if(gallery.length <= 1)
     {
         return (
-            <section>
-                <img src={gallery[currentIndex]} alt="Photographie du logement"/>
-                <p>{currentIndex + 1}/{gallery.length}</p>
+            <section className="carrousel">
+                <img className="carrousel__image" src={gallery[currentIndex]} alt="Photographie du logement"/>
+                <p className="carrousel__current-position">{currentIndex + 1}/{gallery.length}</p>
             </section>
         )
     }
