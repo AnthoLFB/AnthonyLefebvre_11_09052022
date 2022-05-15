@@ -1,0 +1,30 @@
+.accommodation-information__host
+{
+    width: 30%;
+    text-align: right;
+}
+
+.accommodation-information__host__personal-data-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.accommodation-information__host__personal-data-container__name
+{
+    width: 150px;
+    word-spacing: 150px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FF6060;
+}
+
+.accommodation-information__host__personal-data-container__image
+{
+    width: 64px;
+    height: 64px;
+    border-radius: 10em;
+    margin-left: 10px;
+}

@@ -1,0 +1,37 @@
+.accommodation-information__location
+{
+    width: 70%;
+}
+
+.accommodation-information__location__title, .accommodation-information__location__address
+{
+    margin: 5px 0;
+    padding: 0;
+    color: #FF6060;
+}
+
+.accommodation-information__location__title
+{
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.accommodation-information__location__address
+{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.accommodation-information__location__tags-list
+{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.accommodation-information__location__tags-list__item
+{
+    margin-right: 10px;
+}
