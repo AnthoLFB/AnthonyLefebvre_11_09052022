@@ -9,6 +9,11 @@ import { accommodations } from '../datas/accommodations';
 
 //Components
 import Carrousel from './Carrousel';
+import AccommodationLocation from './AccommodationLocation';
+import AccommodationHost from './AccommodationHost';
+
+//CSS
+import "../styles/AccommodationInformation.css";
 
 function AccommodationInformation() 
 {
@@ -24,10 +29,14 @@ function AccommodationInformation()
         currentAccommodation = accommodation;
       }
   });
-
+  
   return (
     <React.Fragment>
       <Carrousel gallery={currentAccommodation.pictures}/>
+      <section className="accommodation-information">
+        <AccommodationLocation title={currentAccommodation.title} location={currentAccommodation.location} tags={currentAccommodation.tags}/>
+        <AccommodationHost host={currentAccommodation.host} rating={currentAccommodation.rating}/>
+      </section>
     </React.Fragment>
   );
 }
