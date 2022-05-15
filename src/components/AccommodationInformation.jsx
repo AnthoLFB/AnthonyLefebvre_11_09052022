@@ -15,6 +15,7 @@ import AccommodationHost from './AccommodationHost';
 //CSS
 import "../styles/AccommodationInformation.css";
 import "../styles/responsive/AccommodationInformation.css";
+import AccommodationDescription from './AccommodationDescription';
 
 function AccommodationInformation() 
 {
@@ -38,6 +39,7 @@ function AccommodationInformation()
         <AccommodationLocation title={currentAccommodation.title} location={currentAccommodation.location} tags={currentAccommodation.tags}/>
         <AccommodationHost host={currentAccommodation.host} rating={currentAccommodation.rating}/>
       </section>
+      <AccommodationDescription equipments={currentAccommodation.equipments} description={currentAccommodation.description}/>
     </React.Fragment>
   );
 }
