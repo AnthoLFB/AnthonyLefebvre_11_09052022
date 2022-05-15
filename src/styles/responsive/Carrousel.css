@@ -1,0 +1,47 @@
+/*
+ small: 576px,
+  medium: 768px,
+  large: 992px,
+  xlarge: 1200px,
+  xxlarge: 1400px,
+  ultrawide: 2560px
+*/
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) 
+{
+    .carrousel
+    {
+        width: calc(100% - 40px);
+        margin: 30px 20px;
+    }
+}
+
+@media (max-width: 576px) 
+{
+    .carrousel
+    {
+        height: 255px;
+    }
+
+    .carrousel__current-position
+    {
+        display: none;
+    }
+
+    .carrousel__btn img
+    {
+        width: 50%;
+    }
+
+    .carrousel__btn--next
+    {
+        right: 5px;
+    }
+
+    .carrousel__btn--previous
+    {
+        left: 5px;
+    }
+}
+
