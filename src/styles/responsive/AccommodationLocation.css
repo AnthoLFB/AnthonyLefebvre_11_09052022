@@ -1,0 +1,29 @@
+/*
+ small: 576px,
+  medium: 768px,
+  large: 992px,
+  xlarge: 1200px,
+  xxlarge: 1400px,
+  ultrawide: 2560px
+*/
+
+/* ---- Responsive ---- */
+@media (max-width: 576px) 
+{
+    .accommodation-information__location
+    {
+        width: 100%;
+    }
+
+    .accommodation-information__location__title
+    {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .accommodation-information__location__address
+    {
+        font-weight: 500;
+        font-size: 14px;
+    }
+}

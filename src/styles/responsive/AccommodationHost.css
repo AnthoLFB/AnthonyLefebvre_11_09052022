@@ -1,0 +1,43 @@
+/*
+ small: 576px,
+  medium: 768px,
+  large: 992px,
+  xlarge: 1200px,
+  xxlarge: 1400px,
+  ultrawide: 2560px
+*/
+
+/* ---- Responsive ---- */
+@media (max-width: 576px) 
+{
+    .accommodation-information__host
+    {
+        width: 100%;
+        display: flex;
+        text-align: inherit;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+    }
+
+    .accommodation-information__host__personal-data-container
+    {
+        width: 20%;
+    }
+
+    .accommodation-information__host__rating-container
+    {
+        width: 80%;
+    }
+
+    .accommodation-information__host__rating-container .star
+    {
+        width: 15px;
+        height: 15px;
+    }
+    
+    .accommodation-information__host__personal-data-container__name
+    {
+        font-size: 12px;
+    }
+}
