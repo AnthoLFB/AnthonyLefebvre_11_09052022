@@ -1,1 +1,15 @@
+/* ---- Reset css ---- */
 @import-normalize;
+
+/* ---- Règles globales pour toutes les pages ---- */
+body
+{
+    margin: 0;
+}
+
+/* ---- Placement du footer ---- */
+main
+{
+    /* 100vh - headerSize - headerMargins - footerSize - mainMargin*/
+    min-height: calc( 100vh - 60px - 50px - 200px - 25px);
+}

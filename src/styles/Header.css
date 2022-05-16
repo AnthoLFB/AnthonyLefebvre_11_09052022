@@ -9,6 +9,7 @@ header
 {
     width: calc(100% - 200px);
     margin: 25px 100px;
+    height: 60px;
     justify-content: space-between;
     align-items: center;
 }

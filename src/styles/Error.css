@@ -1,7 +1,7 @@
 .error
 {
     width: calc(100% - 200px);
-    margin: 100px;
+    margin: 50px 100px;
     color: #FF6060;
     text-align: center;
 }
