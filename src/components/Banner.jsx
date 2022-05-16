@@ -1,6 +1,6 @@
 //CSS
-import '../styles/Banner.css'
-import '../styles/responsive/Banner.css'
+import '../styles/components/Banner.css'
+import '../styles/responsive/components/Banner.css'
 
 function Banner({ image, itHaveText, text = null })
 {  

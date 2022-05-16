@@ -11,11 +11,12 @@ import { accommodations } from '../datas/accommodations';
 import Carrousel from './Carrousel';
 import AccommodationLocation from './AccommodationLocation';
 import AccommodationHost from './AccommodationHost';
+import AccommodationDescription from './AccommodationDescription';
 
 //CSS
-import "../styles/AccommodationInformation.css";
-import "../styles/responsive/AccommodationInformation.css";
-import AccommodationDescription from './AccommodationDescription';
+import "../styles/components/AccommodationInformation.css";
+import "../styles/responsive/components/AccommodationInformation.css";
+
 
 function AccommodationInformation() 
 {

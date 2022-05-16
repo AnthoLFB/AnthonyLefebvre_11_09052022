@@ -2,8 +2,8 @@
 import Collapse from '../components/Collapse';
 
 //CSS
-import  "../styles/AccommodationDescription.css"
-import  "../styles/responsive/AccommodationDescription.css"
+import  "../styles/components/AccommodationDescription.css"
+import  "../styles/responsive/components/AccommodationDescription.css"
 
 function AccommodationDescription({description, equipments})
 {

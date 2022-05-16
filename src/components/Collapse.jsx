@@ -6,8 +6,8 @@ import up from "../assets/images/up.svg"
 import down from "../assets/images/down.svg"
 
 //CSS
-import '../styles/Collapse.css'
-import '../styles/responsive/Collapse.css'
+import '../styles/components/Collapse.css'
+import '../styles/responsive/components/Collapse.css'
 
 function Collapse({title, width, text})
 {

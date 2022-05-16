@@ -1,5 +1,5 @@
 //CSS
-import "../styles/Tag.css"
+import "../styles/components/Tag.css"
 
 function Tag({name})
 {

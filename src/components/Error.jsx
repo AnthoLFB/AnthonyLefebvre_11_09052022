@@ -2,8 +2,8 @@
 import {Link} from "react-router-dom";
 
 //CSS
-import "../styles/Error.css";
-import "../styles/responsive/Error.css";
+import "../styles/components/Error.css";
+import "../styles/responsive/components/Error.css";
 
 function Error ({errorCode, errorMessage})
 {

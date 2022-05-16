@@ -3,7 +3,7 @@ import emptyStar from "../assets/images/emptyStar.svg"
 import filledStar from "../assets/images/filledStar.svg"
 
 //CSS
-import "../styles/Star.css"
+import "../styles/components/Star.css"
 
 function Star({rating, maxRating})
 {

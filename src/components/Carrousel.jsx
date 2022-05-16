@@ -6,8 +6,8 @@ import leftArrow from "../assets/images/leftArrow.svg";
 import rightArrow from "../assets/images/rightArrow.svg";
 
 //CSS
-import "../styles/Carrousel.css";
-import "../styles/responsive/Carrousel.css";
+import "../styles/components/Carrousel.css";
+import "../styles/responsive/components/Carrousel.css";
 
 function Carrousel({gallery})
 {

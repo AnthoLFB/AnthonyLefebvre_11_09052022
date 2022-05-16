@@ -2,8 +2,8 @@
 import logoBlanc from "../assets/images/logoBlanc.png";
 
 //CSS
-import "../styles/Footer.css";
-import "../styles/responsive/Footer.css";
+import "../styles/components/Footer.css";
+import "../styles/responsive/components/Footer.css";
 
 function Footer()
 {

@@ -5,8 +5,8 @@ import { accommodations } from '../datas/accommodations';
 import AccommodationListItem from './AccommodationsListItem';
 
 //CSS
-import '../styles/AccommodationsList.css' 
-import '../styles/responsive/AccommodationsList.css' 
+import '../styles/components/AccommodationsList.css' 
+import '../styles/responsive/components/AccommodationsList.css' 
 
 function AccommodationsList()
 {

@@ -2,8 +2,8 @@
 import Star from "./Star";
 
 //CSS
-import "../styles/AccommodationHost.css";
-import "../styles/responsive/AccommodationHost.css";
+import "../styles/components/AccommodationHost.css";
+import "../styles/responsive/components/AccommodationHost.css";
 
 function AccommodationHost({host, rating})
 {
