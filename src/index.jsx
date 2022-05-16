@@ -3,9 +3,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 //Reset css & font
-import './styles/Reset.css';
+import './styles/global/Reset.css';
 import './styles/responsive/global.css';
-import './styles/Font.css';
+import './styles/global/Font.css';
 
 //Pages
 import Home from './pages/Home';
