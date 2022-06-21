@@ -12,6 +12,7 @@ import Carrousel from './Carrousel';
 import AccommodationLocation from './AccommodationLocation';
 import AccommodationHost from './AccommodationHost';
 import AccommodationDescription from './AccommodationDescription';
+import Error from './Error';
 
 //CSS
 import "../styles/components/AccommodationInformation.css";
@@ -32,6 +33,15 @@ function AccommodationInformation()
         currentAccommodation = accommodation;
       }
   });
+
+  if(currentAccommodation == null)
+  {
+    return (
+      <React.Fragment>
+        <Error errorCode={"404"} errorMessage={"Oups! Ce logement n'existe pas."}/>
+      </React.Fragment>
+    )
+  }
   
   return (
     <React.Fragment>
